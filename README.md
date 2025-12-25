@@ -2,7 +2,7 @@
 > Also known as the “Afterlife License”
 
 ---
-
+```text
  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. |
 | |   _____      | || |  _______     | || |   _____      | |
@@ -16,6 +16,7 @@
  '----------------'  '----------------'  '----------------' 
                                 
   P R E S E R V E  •  A D A P T  •  R E L E A S E
+```
 
 📜 Preamble
 This license was created to address a common failure in traditional software and hardware licensing: the permanent restriction of works that are no longer produced, supported, or commercially maintained.
