@@ -1,8 +1,8 @@
 # 🏛️ Legacy Release License (LRL)
-> Also known as the “Afterlife License”
 
----
-```text
+### Also known as the “Afterlife License”
+
+```
  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. |
 | |   _____      | || |  _______     | || |   _____      | |
@@ -14,82 +14,140 @@
 | |              | || |              | || |              | |
 | '--------------' || '--------------' || '--------------' |
  '----------------'  '----------------'  '----------------' 
-                                
-  P R E S E R V E  •  A D A P T  •  R E L E A S E
 ```
 
-📜 Preamble
-This license was created to address a common failure in traditional software and hardware licensing: the permanent restriction of works that are no longer produced, supported, or commercially maintained.
-
-The LRL establishes a time-based transition between exclusive commercial ownership and cultural, technical, and historical preservation. It recognizes that artifacts deserve an afterlife beyond abandonment.
-
-⏳ Phased Licensing Model
-The LRL operates in three distinct stages, moving from closed to community-driven.
-
-🔴 Phase I — Full Exclusivity
-Status: Active Production or Support
-Rights: Full commercial rights retained by Licensor.
-Restrictions: No modification, redistribution, or reverse engineering without explicit permission.
-
-🟡 Phase II — Legacy Release (Afterlife Initiation)
-Status: Production ceased + Support discontinued (Default: 3–5 years)
-Permissions: Study, modify, create compatibility patches, and non-commercial forks.
-Preservation: Emulation and archival are permitted.
-Restrictions: No commercial sale; no use of Trademarked Elements.
-
-🟢 Phase III — Heritage Release
-Status: End of support + X years (Default: 10–15 years)
-Permissions: Source code released publicly; unrestricted educational and research use.
-Spirit: Historical preservation and museum inclusion are explicitly allowed.
-
-🛠️ Definitions
-Licensor — The original copyright holder.
-Licensed Work — Software, firmware, hardware design, or related assets.
-Support — Official updates, patches, or customer assistance.
-Production — Active manufacturing or commercial sale.
-Trademarked — Names, logos, and characters owned by the Licensor.
-
-⚖️ License Terms (v1.0 — Draft)
-
-1. Attribution Requirement
-All Community Versions must clearly state:
-“Based on the original work by [Licensor Name]. This is an unofficial, community-maintained version.”
-
-2. Optional Tribute Clause 🎖️
-Licensors may require symbolic attribution (credits, documentation mention).
-No financial obligation may be enforced.
-
-3. No Warranty
-The Licensed Work is provided “as is”.
-The Licensor bears no responsibility for damages arising from Community Versions.
-
-4. Termination
-Failure to comply with these terms results in automatic termination of granted permissions.
-
-🧠 Philosophical Statement
-No meaningful work is left to rot behind locked doors once its creators have chosen to walk away.
-
-LRL — Version 1.0 — Draft
+**P R E S E R V E  •  A D A P T  •  R E L E A S E**
 
 ---
 
-TL;DR — How LRL compares to MIT and GPL
+## ⚡ What is LRL?
 
-Feature                          | MIT | GPL | LRL / Afterlife
----------------------------------|-----|-----|-----------------
-Open from day one                | Yes | Yes | No
-Allows commercial use            | Yes | Yes | No (until legacy phase)
-Requires sharing modifications   | No  | Yes | No (non-commercial only)
-Protects trademarks              | No  | No  | Yes
-Time-based release               | No  | No  | Yes
-Designed for abandoned software  | No  | No  | Yes
-Allows mods after end of support | No  | No  | Yes
-Focus on preservation            | No  | No  | Yes
+The **Legacy Release License (LRL)** is a time-based license that transitions software from:
 
-In one sentence
+> **closed commercial control → community preservation → public legacy**
 
-MIT: Do whatever you want, even sell it.
-GPL: Do whatever you want, but share it back.
-LRL: Do whatever you want — after I stop caring — and keep it alive.
+It is designed for one specific problem:
 
-"Giving code a second life."
+> Software that dies, not because it is useless — but because it is legally locked.
+
+---
+
+## ⏳ How it works
+
+LRL operates in three phases:
+
+### 🔴 Phase I — Full Exclusivity
+
+* Full commercial control
+* No modification or redistribution
+
+---
+
+### 🟡 Phase II — Legacy Release
+
+Triggered after abandonment or inactivity
+
+* Study and modify the code
+* Create non-commercial forks
+* Maintain compatibility and patches
+* Preserve through emulation and archival
+
+**Restrictions:**
+
+* No commercial use
+* No misuse of trademarks
+
+---
+
+### 🟢 Phase III — Heritage Release
+
+Long-term release into public legacy
+
+* Source code becomes publicly accessible
+* Educational, research, and historical use
+* Commercial use becomes permitted
+
+---
+
+## 🧠 Why this exists
+
+Most licenses assume software lives forever under active ownership.
+
+Reality is different.
+
+Projects are abandoned.
+Companies move on.
+Servers shut down.
+
+And what remains is:
+
+* unusable software
+* inaccessible knowledge
+* lost history
+
+LRL exists to prevent that.
+
+---
+
+## ⚖️ Key differences
+
+| Feature                  | MIT | GPL | LRL         |
+| ------------------------ | --- | --- | ----------- |
+| Open from day one        | ✅   | ✅   | ❌           |
+| Commercial use           | ✅   | ✅   | ⏳ (Delayed) |
+| Time-based transition    | ❌   | ❌   | ✅           |
+| Trademark protection     | ❌   | ❌   | ✅           |
+| Designed for abandonment | ❌   | ❌   | ✅           |
+| Preservation focus       | ❌   | ❌   | ✅           |
+
+---
+
+## 📦 Repository structure
+
+* `LICENSE.md` → legal terms
+* `SPECIFICATION.md` → operational rules
+* `PHILOSOPHY.md` → conceptual foundation
+* `EXAMPLES.md` → real-world scenarios
+* `templates/` → ready-to-use license formats
+
+---
+
+## 📜 Status
+
+**Version 1.0 — Draft**
+
+This license is experimental and has not undergone formal legal review.
+
+---
+
+## 🚨 Disclaimer
+
+This is not legal advice. Use at your own risk.
+
+---
+
+## 🧩 In one sentence
+
+* MIT: do whatever you want
+* GPL: do whatever you want, but share
+* LRL: do whatever you want — **after the project is abandoned**
+
+---
+
+## 🧠 Philosophy
+
+> No meaningful work should be left to rot behind locked doors once its creators have moved on.
+
+---
+
+## 🤝 Contributing
+
+Suggestions, discussions, and improvements are welcome.
+
+---
+
+## 🏁 Final idea
+
+Software has a lifecycle.
+
+LRL gives it an afterlife.
